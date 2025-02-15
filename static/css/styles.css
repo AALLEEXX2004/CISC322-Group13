@@ -73,6 +73,31 @@ section {
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
 }
 
+.assignment-card {
+
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 8px;
+    height: auto;
+    width: 1750px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.assignment-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.assignment-container {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    align-items: center;     /* Center items horizontally */
+    /* justify-content: center;  Use if you want vertical centering */
+    max-width: 1750px;
+    margin: auto;
+    gap: 1rem;
+}
 .cards-container {
     display: flex;
     justify-content: center;
